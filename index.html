@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISHCOVER</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <header class="header-main">
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Dishcovery logo.">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#News">News</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#Food">Food</a>
+            
+                    <ul>
+                        <li><a href="Torta.html">Tortang Cabbage</a></li>
+                        <li><a href="Odong.html#">Odong</a></li>
+                        <li><a href="GPechay.html">Ginisang Pechay</a></li>
+                        <li><a href="SardinesCalderata.html">Sardines Caldereta</a></li>
+                        <li><a href="CornedBeefOmelet.html">Corned Beef Omelet</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+
+            <div class="sm-links">
+                <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook link"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="youtube.png" alt="Youtube link"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="image">
+            <div class="title">
+                <h1>DISHCOVER</h1>
+            </div>
+        </div>
+
+        <section class="About" id="About">
+            <h1 class="heading"><span>About Us</span></h1>
+            <div class="about-container">
+                <div class="about-content">
+                    <p>Our website is committed to delivering simple, nutritious meals prepared with ingredients that are readily available and affordable. By transforming everyday goods into nutritious meals, we actively contribute to the United Nations Sustainable Development Goal of Zero Hunger, making healthy cooking accessible to all.</p>
+                    <p>Through our platform, we aim to foster a community committed to sustainable and nutritious eating, paving the way for a future where everyone has access to nutritious food and no one experiences hunger.</p>
+                </div>
+                <div class="about-video">
+                    <video loop muted autoplay>
+                        <source src="CookVid.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="News" id ="News">
+            <h1 class="heading">News</h1>
+            <div class="newsbox">
+                <div class="box">
+                    <div class ="newsimage">
+                        <img src="Inquirer.png" alt="">
+                        <a href="https://globalnation.inquirer.net/243718/un-51m-filipinos-food-insecure" target="_blank">Food Insecurity In The Philippines</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class ="newsimage">
+                        <img src="abs.png" alt="">
+                        <a href="https://news.abs-cbn.com/business/2024/10/17/hunger-rises-in-september-second-highest-since-pandemic-1647" target="_blank">Hunger Rises In September</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class ="newsimage">
+                        <img src="gma.jpg" alt="">
+                        <a href="https://www.gmanetwork.com/news/topstories/nation/904288/palace-seeks-to-boost-efforts-in-attaining-zero-hunger-food-security/story/" target="_blank">Palace Seeks To Boost Efforts In Attaining Zero Hunger </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="Food" id="Food">
+            <h1 class="heading">Food List</h1>
+            <div class="foodbox-container">
+                <div class="foodbox">
+                    <div class="food-item">
+                        <div class="food-image">
+                            <img src="TortangCabbage.jpg" alt="Tortang Cabbage">
+                        </div>
+                        <div class="food-title">
+                            <h3><a href="Torta.html"> Cabbage</a></h3>
+                        </div>
+                    </div>
+        
+                    <div class="food-item">
+                        <div class="food-image">
+                            <img src="Odong.png" alt="Instant Noodles">
+                        </div>
+                        <div class="food-title">
+                            <h3><a href="Odong.html">Odong</a></h3>
+                        </div>
+                    </div>
+        
+                    <div class="food-item">
+                        <div class="food-image">
+                            <img src="GinisangPechay.jpg" alt="Ginisang Pechay">
+                        </div>
+                        <div class="food-title">
+                            <h3><a href="GPechay.html">Pechay</a></h3>
+                        </div>
+                    </div>
+        
+                    <div class="food-item">
+                        <div class="food-image">
+                            <img src="SardinesCaldereta.jpg" alt="Sardines Caldereta">
+                        </div>
+                        <div class="food-title">
+                            <h3><a href="SardinesCaldereta.html">Sardines Caldereta</a></h3>
+                        </div>
+                    </div>
+        
+                    <div class="food-item">
+                        <div class="food-image">
+                            <img src="CornedOmelet.png" alt="Corned Beef Omelet">
+                        </div>
+                        <div class="food-title">
+                            <h3><a href="CornedBeefOmelet.html">Corned Beef Omelet</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Review us" id="review">
+            <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            <h1 class="heading"></h1>
+            <div class="comment-container">
+                <div class="contact-form">
+                    <h2>Do you have your own healthy and simple meals? Contact us!</h2>
+        
+                    <form id="emailForm" onsubmit="sendMail(event)">
+                        <div class="form-group">
+                            <label for="email">Contact Email:</label>
+                            <p id="contact-email" class="form-control-static">josiahgabriel164@gmail.com   frankogarcia@gmail.com haroldlariosa@gmail.com</p>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="to-email">To Email:</label>
+                            <input type="text" id="to-email" name="to" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="replyto">Reply To (Email):</label>
+                            <input type="text" id="replyto" name="replyto" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        
+            
+            <div class="rating-container">
+                <h2>Rate Us!</h2>
+                <div class="containers">
+                  <div class="container__items">
+                    <input type="radio" name="stars" id="st5" value="5">
+                    <label for="st5">
+                      <div class="star-stroke">
+                        <div class="star-fill"></div>
+                      </div>
+                      <div class="label-description" data-content="Excellent"></div>
+                    </label>
+                    <input type="radio" name="stars" id="st4" value="4">
+                    <label for="st4">
+                      <div class="star-stroke">
+                        <div class="star-fill"></div>
+                      </div>
+                      <div class="label-description" data-content="Good"></div>
+                    </label>
+                    <input type="radio" name="stars" id="st3" value="3">
+                    <label for="st3">
+                      <div class="star-stroke">
+                        <div class="star-fill"></div>
+                      </div>
+                      <div class="label-description" data-content="Fine"></div>
+                    </label>
+                    <input type="radio" name="stars" id="st2" value="2">
+                    <label for="st2">
+                      <div class="star-stroke">
+                        <div class="star-fill"></div>
+                      </div>
+                      <div class="label-description" data-content="Okay"></div>
+                    </label>
+                    <input type="radio" name="stars" id="st1" value="1">
+                    <label for="st1">
+                      <div class="star-stroke">
+                        <div class="star-fill"></div>
+                      </div>
+                      <div class="label-description" data-content="Bad"></div>
+                    </label>
+                    <button id="submit-rating">Submit Rating</button>
+        </section>
+        <script>
+
+const submitButton = document.getElementById('submit-rating');
+    const ratingInputs = document.querySelectorAll('input[name="stars"]');
+
+    submitButton.addEventListener('click', () => {
+        let userRating;
+
+        
+        ratingInputs.forEach(input => {
+            if (input.checked) {
+                userRating = input.value;
+            }
+        });
+
+        if (userRating) {
+            
+            const data = { userId: 1, rating: userRating };
+
+           
+            fetch('http://localhost:3000/rate', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data), 
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Rating submitted successfully:', data);
+            })
+            .catch(error => {
+                console.error('Error submitting rating:', error);
+            });
+        } else {
+            alert('Please select a rating!');
+        }
+    });
+
+
+            (function() {
+                emailjs.init("rDCBofIpMqJmNQaXh");
+            })();
+        
+            function sendMail(event) {
+                event.preventDefault();
+        
+                var params = {
+                    name: document.querySelector("#name").value,
+                    to: document.querySelector("#to-email").value,
+                    replyto: document.querySelector("#replyto").value,
+                    subject: document.querySelector("#subject").value,
+                    message: document.querySelector("#message").value,
+                };
+        
+                var serviceID = "service_rc6fz9l";
+                var templateID = "template_2fhjbgh";
+        
+                emailjs.send(serviceID, templateID, params)
+                    .then(res => {
+                        alert("Email sent successfully");
+                    })
+                    .catch(error => {
+                        console.error("Error sending email:", error);
+                        alert("Failed to send email. Please try again.");
+                    });
+            }
+
+            
+        </script>
+        
+
+
+    </main>
+</body>
+</html>
